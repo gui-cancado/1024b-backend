@@ -57,3 +57,10 @@ const p:Pessoa = {
     idade:34,
     molestador:"Sim"
 }
+
+const p1:Pessoa = { 
+    id:10,
+    nome:"ALA TUA MÃE",
+    idade:34,
+    molestador:"Sim"
+}
