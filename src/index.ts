@@ -6,4 +6,4 @@ let vetor:number[] = [1,2,3,4]
 
 let nomes:string[] = ["oi","oi"]
 
-console.log(nomes')
+console.log(nomes)
