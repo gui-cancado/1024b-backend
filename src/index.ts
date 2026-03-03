@@ -64,3 +64,46 @@ const p1:Pessoa = {
     idade:34,
     molestador:"Sim"
 }
+
+//function nomeFuncao(variavel:number):number{
+//    return 10
+//}
+
+const f = (variavel:number) =>{
+    console.log("NA INTERNETTTTTTTTT")
+    return 10
+}
+const f3 = f(10)
+
+console.log("O valor de X é "+f3.toString())
+console.log(`O valor de X é ${f3}`)
+
+
+function somaVetor(vetor:number[]){
+    let soma:number = 0 
+    for (let i = 0; i < vetor.length; i++) {
+        let soma1 = vetor[i]
+        soma += soma1!
+    }
+    return soma
+}
+
+console.log(somaVetor([...Array(101).keys()]))
+
+
+// some os pares de um array
+
+let array1:number[] = [1, 3, 2, 2,2,4, 7, 5, 8, 9]
+
+function sumEven(vetor:number[]){
+     let soma:number = 0 
+     for (let i = 0; i < vetor.length; i++) {
+        let soma1 = vetor[i]
+        if (soma1! % i === 0){
+            soma += soma1!
+        }
+    }
+    return soma
+}
+
+console.log(sumEven(array1))
