@@ -107,3 +107,8 @@ function sumEven(vetor:number[]){
 }
 
 console.log(sumEven(array1))
+
+
+// 3 - faça uma função que receba 2 vetores e
+// faça a operação merge entre eles
+// EX.: mergeVetor([1,2,4],[3,5,6]) => [1,2,3,4,5,6]
