@@ -210,3 +210,6 @@ function resolveEquacao(vetor:number[]){
     return vetor.map(x => x**2 + 2*x + 6)
 }
 console.log(resolveEquacao([1,2,3]))
+
+
+
