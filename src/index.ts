@@ -76,7 +76,7 @@ app.post("/pessoas", async (req, res) => {
 app.get("/listar_produtos", async (req, res) => {
     try {
         const [resultado, campos] =
-            await connection.execute(`SELECT * FROM produto `)
+            await connection.execute(`SELECT * FROM produto`)
         console.log(resultado)
         res.status(200).json(resultado)
     } catch (err) {
